@@ -26,7 +26,7 @@ export const NAV_DATA = [
           },
           {
             title: "Lịch đã đặt",
-            url: "/schedule/booked",
+            url: "/schedule/bookings",
           },
         ],
       },
@@ -38,7 +38,7 @@ export const NAV_DATA = [
       },
       {
         title: "Tài khoản",
-        url: "/profile",
+        url: "/profile/account",
         icon: Icons.User,
         items: [],
       },
