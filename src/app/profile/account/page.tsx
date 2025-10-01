@@ -41,10 +41,26 @@ const Account = () => {
                   </div>
                   <div className="mb-4">
                     <label className="mb-2.5 block font-medium text-black dark:text-white">
+                      Email
+                    </label>
+                    <div className="w-full rounded border border-stroke bg-gray py-3 px-4.5 dark:border-strokedark dark:bg-meta-4">
+                      johndoe@example.com
+                    </div>
+                  </div>
+                  <div className="mb-4">
+                    <label className="mb-2.5 block font-medium text-black dark:text-white">
                       Vai trò
                     </label>
                     <div className="w-full rounded border border-stroke bg-gray py-3 px-4.5 dark:border-strokedark dark:bg-meta-4">
                       PTN
+                    </div>
+                  </div>
+                  <div className="mb-4">
+                    <label className="mb-2.5 block font-medium text-black dark:text-white">
+                      Phòng thí nghiệm
+                    </label>
+                    <div className="w-full rounded border border-stroke bg-gray py-3 px-4.5 dark:border-strokedark dark:bg-meta-4">
+                      Phòng thí nghiệm A
                     </div>
                   </div>
                 </div>

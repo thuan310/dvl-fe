@@ -69,6 +69,12 @@ export default function BookingsPage() {
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
+              <button
+                onClick={() => router.push('/schedule/book')}
+                className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-2.5 text-center font-medium text-white hover:bg-opacity-90"
+              >
+                Đặt lịch
+              </button>
             </div>
             
             <div className="max-w-full overflow-x-auto">
